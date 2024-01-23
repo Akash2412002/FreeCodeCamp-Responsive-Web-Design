@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    padding: 0;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+                url(https://img.freepik.com/free-photo/team-unity-friends-meeting-partnership-concept_53876-147469.jpg?w=996&t=st=1704128116~exp=1704128716~hmac=7f73029478e541017ab2e9576e634fab00ef36bd948496ac9086d605670393a2);
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    color: #fff;
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(128, 0, 128, 0.5);
+    border-radius: 10px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #fff;
+}
+
+label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+input[type="radio"] { 
+    margin-right: 8px;
+    display: block-inline;
+    cursor: pointer;
+} 
+
+input[type="checkbox"] { 
+    margin-right: 5px;
+} 
+
+.checkbox-group {
+    display: inline-block;
+    margin-bottom: 16px;
+    cursor: pointer;
+    
+}
+
+
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#name, #member-id, #email, #contact-number, #designation, #duration, #favorite-project, #future-project, #feedback,#number {
+    background-color: #f8f8f8;
+    padding: 8px;
+    width:100%;
+    box-sizing: border-box; 
+}
+
+textarea,select { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 12px; 
+    box-sizing: border-box; 
+    border-radius: 7px; 
+    display:block-inline;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    width:40%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size:16px;
+}
+
+button:hover {
+    background-color: red;
+}

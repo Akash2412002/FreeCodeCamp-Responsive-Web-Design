@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rotaract Club Experience Survey form</title>
+</head>
+
+<body class="bg-image">
+    <h1 id="title">Rotaract Club Experience Survey</h1>
+    <p id="description">We value your input to enhance the Rotaract club experience. Please complete the survey below.</p>
+
+    <form id="survey-form">
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label  id="name-label">First Name: </label>
+            <input type="text" id="name" placeholder="Enter your first name" required>
+
+            <label  id="name-label">Last Name: </label>
+            <input type="text" id="name" placeholder="Enter your last name" required>
+
+            <label id="member-id-label">Club Member ID: </label>
+            <input type="text" id="member-id" placeholder="Enter your club member ID" required>
+
+            <label id="email-label">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label id="number-label">Contact Number: </label>
+            <input type="tel" id="contact-number" placeholder="Enter your contact number" min="10" max="13" required>
+
+ <p>Please select the Gender</p>
+           <label>
+    <input type="radio" name="gender" value="male"> Male
+</label>
+<label>
+    <input type="radio" name="gender" value="female"> Female
+</label>
+<label>
+    <input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say
+</label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Club Membership</legend>
+
+            <label id="designation-label">Your Designation: </label>
+            <input type="text" id="designation" placeholder="Enter your designation" required>
+
+            <label>Are you currently a club member? </label>
+            <select id="dropdown" required>
+                <option value="">Select One</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label id="duration-label">If yes, how long have you been a member? (in months)</label>
+            <input type="number" id="number" placeholder="Enter the duration in months" min="1" max="144">
+        </fieldset>
+
+        <fieldset>
+            <legend>Club Activities</legend>
+
+            <label>Which club activities do you find most engaging?</label>
+               <label> <input type="checkbox" name="activity-group" value="community-service" class="checkbox-group"> Community Service</label>
+               <label> <input type="checkbox" name="activity-group" value="professional-development" class="checkbox-group"> Professional Development</label>
+               <label> <input type="checkbox" name="activity-group" value="club-service" class="checkbox-group"> Club Service</label>
+               <label> <input type="checkbox" name="activity-group" value="dpp" class="checkbox-group"> District Priority Projects</label>
+               <label> <input type="checkbox" name="activity-group" value="isd" class="checkbox-group"> International Service Projects
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Feedback and Suggestions</legend>
+
+            <label>Share your favorite project and explain why you enjoyed it most:</label>
+            <textarea id="favorite-project" placeholder="Enter your comments"></textarea>
+
+            <label>What type of project would you suggest for the future?</label>
+            <textarea id="future-project" placeholder="Enter your suggestions"></textarea>
+
+            <label>Any additional suggestions or feedback to enhance the club experience?</label>
+            <textarea id="feedback" placeholder="Enter your comments"></textarea>
+        </fieldset>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
