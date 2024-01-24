@@ -314,7 +314,10 @@ input[type="submit"]:hover {
   /** media queries **/
   
   /* Small screens */
-@media (min-width:365px) and (max-width: 768px) {
+@media (min-width:330px) and (max-width: 768px) {
+  body{
+    font-size:inherit;
+  }
   header {
     flex-wrap: wrap;
     padding: 10px 0px;
